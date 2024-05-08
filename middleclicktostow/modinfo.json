@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "middleclicktostow",
+    "name": "Middle Click to Stow",
+    "authors": [
+        "Danielle Church"
+    ],
+    "description": "Middle-click an inventory or hotbar slot to swap items between your hotbar and your inventory. Like shift-click, but less so.",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.19.7"
+    }
+}
