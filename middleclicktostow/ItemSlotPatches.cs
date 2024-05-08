@@ -14,7 +14,7 @@ namespace middleclicktostow
         {
             // from InventoryBase.ActivateSlot()
             ItemSlot sourceSlot = __instance;
-            if (sourceSlot.Empty) return;
+            if (sourceSlot.Empty || op.MovedQuantity > 0) return; // if there's nothing to transfer, or if something already happened
             string? stackName = sourceSlot.Itemstack?.GetName();
             string? sourceInv = sourceSlot.Inventory?.InventoryID;
 
